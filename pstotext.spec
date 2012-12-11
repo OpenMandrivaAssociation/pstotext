@@ -42,3 +42,10 @@ pstotext extracts plain text from PostScript files using GhostScript.
 %defattr(-,root,root)
 %_bindir/pstotext
 %_mandir/man1/pstotext.*
+
+
+%changelog
+* Wed Sep 05 2012 Lev Givon <lev@mandriva.org> 1.9-1
++ Revision: 816357
+- imported package pstotext
+
