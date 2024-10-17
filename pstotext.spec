@@ -14,7 +14,7 @@ Release: %{release}
 Source0: ftp://mirror.cs.wisc.edu/pub/mirrors/ghost/contrib/%{name}-%{version}.tar.gz
 License: GPL
 Group:	 Publishing
-Url:   http://pages.cs.wisc.edu/~ghost/doc/pstotext.htm
+Url:   https://pages.cs.wisc.edu/~ghost/doc/pstotext.htm
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:  ghostscript
 
