@@ -18,6 +18,7 @@ Url:   https://pages.cs.wisc.edu/~ghost/doc/pstotext.htm
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:  ghostscript
 
+BuildRequires:	make
 %description
 pstotext extracts plain text from PostScript files using GhostScript.
 
