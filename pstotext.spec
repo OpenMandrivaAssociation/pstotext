@@ -2,9 +2,9 @@
 %define version 1.9
 %define	rel	1
 %if %mdkversion < 201100
-%define release %mkrel %{rel}
+%define release %{rel}.1
 %else
-%define	release	%{rel}
+%define	release %{rel}.1
 %endif
 
 Summary: Extract text from PostScript files
